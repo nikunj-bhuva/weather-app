@@ -81,14 +81,6 @@ body {
   margin-top: -10px;
 }
 
-/* .humidity-img {
-  width: 100px !important;
-  object-fit: contain;
-}
-.wind {
-  width: 100px!important;
-  object-fit: contain;
-} */
 .details {
   display: flex;
   align-items: center;
@@ -102,6 +94,10 @@ body {
   text-align: left;
 }
 .col img {
-  width: 50px!important;
+  width: 50px !important;
   margin-right: -50px;
+}
+
+.weather {
+  display: none;
 }
